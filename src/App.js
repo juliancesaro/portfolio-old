@@ -10,11 +10,8 @@ function App() {
           className="particles"
           params={{
             particles: {
-              number: {
-                value: 50,
-                density: { enable: true, value_area: 800 },
-              },
-              color: { value: "#ffffff" },
+              number: { value: 50, density: { enable: true, value_area: 800 } },
+              color: { value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"] },
               shape: {
                 type: "circle",
                 stroke: { width: 0, color: "#000000" },
@@ -57,23 +54,20 @@ function App() {
             interactivity: {
               detect_on: "canvas",
               events: {
-                onhover: { enable: true, mode: "grab" },
-                onclick: { enable: true, mode: "push" },
+                onhover: { enable: true, mode: "bubble" },
+                onclick: { enable: true, mode: "repulse" },
                 resize: true,
               },
               modes: {
-                grab: {
-                  distance: 250,
-                  line_linked: { opacity: 0.3 },
-                },
+                grab: { distance: 400, line_linked: { opacity: 1 } },
                 bubble: {
-                  distance: 400,
-                  size: 40,
+                  distance: 107,
+                  size: 20,
                   duration: 2,
-                  opacity: 8,
+                  opacity: 0.3,
                   speed: 3,
                 },
-                repulse: { distance: 590, duration: 0.4 },
+                repulse: { distance: 79.9143318362715, duration: 0.4 },
                 push: { particles_nb: 4 },
                 remove: { particles_nb: 2 },
               },

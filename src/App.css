@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background: black;
+  background: #323840;
 }
 .particleswrapper {
   height: 50px;
