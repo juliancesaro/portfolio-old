@@ -10,6 +10,7 @@ body{
 .particles {
   position: fixed;
   height: 100%;
+  width: 100%;
 }
 .navbar {
   text-align: center;
