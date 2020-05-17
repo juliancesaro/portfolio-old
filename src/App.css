@@ -1,8 +1,8 @@
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background:black
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: black;
 }
 .particleswrapper {
   height: 50px;
@@ -17,7 +17,8 @@ body{
   height: 50%;
 }
 p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
   color: white;
 }
