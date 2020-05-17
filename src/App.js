@@ -33,7 +33,7 @@ function App() {
               enable: true,
               distance: 150,
               color: "#ffffff",
-              opacity: 0.25,
+              opacity: 0.15,
               width: 1,
             },
             move: {
