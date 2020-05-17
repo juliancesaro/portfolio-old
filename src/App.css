@@ -34,23 +34,45 @@ p {
 p.name {
   font-size: larger;
 }
-.links {
-  width: 33%;
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
+@media only screen and (min-width: 900px) {
+  .links {
+    width: 33%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-card {
+    background-color: #464e59;
+    width: 50%;
+    text-align: left;
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+  .content {
+    width: 75%;
+    text-align: left;
+    margin: 30px auto;
+  }
 }
-.content-card {
-  background-color: #464e59;
-  width: 50%;
-  text-align: left;
-  border-radius: 25px;
-  margin: 20px auto;
-}
-.content {
-  width: 75%;
-  text-align: left;
-  margin: 30px auto;
+@media only screen and (max-width: 900px) {
+  .links {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-card {
+    background-color: #464e59;
+    width: 80%;
+    text-align: left;
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+  .content {
+    width: 75%;
+    text-align: left;
+    margin: 30px auto;
+  }
 }
 .content-text {
   font-size: medium;
