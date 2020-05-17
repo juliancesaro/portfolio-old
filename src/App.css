@@ -7,10 +7,16 @@ body{
 .particleswrapper {
   height: 50px;
 }
+.particles {
+  position: fixed;
+  height: 100%;
+}
 .navbar {
+  text-align: center;
   height: 50%;
 }
-h1 {
-  font-family: Helvetica, sans-serif;
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
   color: white;
 }

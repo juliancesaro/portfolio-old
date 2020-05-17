@@ -20,10 +20,10 @@ function App() {
 	            opacity: 0
             }
           }, 
-        }}  />
+        }}  style={{width: "100px", height: "100px"}}/>
         </div>
         <div className="navbar">
-          <h1>Julian Cesaro</h1>
+          <p>Julian Cesaro</p>
         </div>
     </div>
   );
