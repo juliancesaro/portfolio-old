@@ -12,7 +12,7 @@ function App() {
         className="particles"
         params={{
           particles: {
-            number: { value: 50, density: { enable: true, value_area: 800 } },
+            number: { value: 50, density: { enable: true, value_area: 950 } },
             color: { value: ["#cc892b", "#1cd6b1", "#8c4ec7", "#8bc74e"] },
             opacity: {
               value: 0.5,
@@ -33,7 +33,7 @@ function App() {
               enable: true,
               distance: 150,
               color: "#ffffff",
-              opacity: 0.15,
+              opacity: 0.1,
               width: 1,
             },
             move: {
