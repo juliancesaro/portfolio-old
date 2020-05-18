@@ -26,3 +26,24 @@ p {
   font-size: medium;
   color: white;
 }
+a,
+.content-link {
+  color: orange;
+  text-decoration: none;
+}
+.languages {
+  display: flex;
+}
+.language {
+  margin-right: 5px;
+  border-radius: 3px;
+  background-color: #ededeb;
+}
+code {
+  font-family: Consolas, monaco, monospace;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #d6443f;
+}

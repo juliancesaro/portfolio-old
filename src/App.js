@@ -54,32 +54,74 @@ function App() {
         <Switch>
           <Route path="/projects">
             <ContentCard>
-              <p className="content-text">Mock online store (coming soon):</p>
-              <p className="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <a href="https://whispering-oasis-98910.herokuapp.com/">
+                <p className="content-link">GOshop:</p>
+              </a>
+              <div className="languages">
+                <div className="language">
+                  <code>ReactJS</code>
+                </div>
+                <div className="language">
+                  <code>Node.js</code>
+                </div>
+                <div className="language">
+                  <code>MongoDB</code>
+                </div>
+              </div>
+              <p>
+                GOshop is a full-stack mock online store still under
+                development. Currently, users can create an account, post items,
+                and add items to their cart. The project was deployed to using
+                Heroku.
               </p>
-              <p className="content-text">Vaporwave website:</p>
-              <p className="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <a href="https://juliancesaro.github.io/vaporwave-website/">
+                <p className="content-link">Vaporwave website:</p>
+              </a>
+              <div className="languages">
+                <div className="language">
+                  <code>HTML</code>
+                </div>
+                <div className="language">
+                  <code>CSS</code>
+                </div>
+                <div className="language">
+                  <code>JS</code>
+                </div>
+              </div>
+              <p>
+                This project is a website detailing the popular music microgenre
+                'vaporwave'. The aesthetic of the website echoes that of
+                vaporwave. The website includes a music player made with jQuery
+                to which users can load and play songs.
               </p>
+              <p className="content-link">
+                Compiler for Jasonelle (coming soon)
+              </p>
+              <div className="languages">
+                <div className="language">
+                  <code>TS</code>
+                </div>
+                <div className="language">
+                  <code>Node.js</code>
+                </div>
+              </div>
+              <p className="content-link">
+                Conway's Game of Life (coming soon)
+              </p>
+              <div className="languages">
+                <div className="language">
+                  <code>ReactJS</code>
+                </div>
+                <div className="language">
+                  <code>Node.js</code>
+                </div>
+              </div>
             </ContentCard>
           </Route>
           <Route path="/resume">
             <ContentCard>
-              <p className="content-text">Experience:</p>
-              <p className="content-text">
+              <p className="content-link">Experience:</p>
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -88,7 +130,7 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="content-text">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -97,15 +139,15 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="content-text">Proficient in:</p>
-              <div className="languages">
-                <p className="content-text">Java - JavaScript - SQL</p>
-              </div>
             </ContentCard>
           </Route>
           <Route path="/">
             <ContentCard>
-              <p className="content-text">
+              <p>
+                I'm a fourth year Software Engineering student at Macquarie
+                University.
+              </p>
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -114,16 +156,7 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <p className="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <p className="content-text">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
