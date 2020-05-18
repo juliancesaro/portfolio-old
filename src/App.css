@@ -35,18 +35,19 @@ a,
   display: flex;
 }
 .language {
-  margin-right: 5px;
-  border-radius: 3px;
-  background-color: #f7f7f7;
+  margin-right: 7px;
+  border-radius: 4px;
+  background-color: #1a1d21;
 }
 .code {
   font-family: Consolas, monaco, monospace;
   font-size: 14px;
   font-weight: 50;
-  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
   margin-left: 4px;
   margin-right: 4px;
-  color: #d6443f;
+  color: white;
 }
 .contacts {
   text-align: center;
