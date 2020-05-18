@@ -71,7 +71,7 @@ function App() {
               <p>
                 GOshop is a full-stack mock online store still under
                 development. Currently, users can create an account, post items,
-                and add items to their cart. The project was deployed to using
+                and add items to their cart. The project was deployed using
                 Heroku.
               </p>
               <a href="https://juliancesaro.github.io/vaporwave-website/">
@@ -90,9 +90,8 @@ function App() {
               </div>
               <p>
                 This project is a website detailing the popular music microgenre
-                'vaporwave'. The aesthetic of the website echoes that of
-                vaporwave. The website includes a music player made with jQuery
-                to which users can load and play songs.
+                'vaporwave'. The website includes a music player made with
+                jQuery to which users can load and play songs.
               </p>
               <p className="content-link">
                 Compiler for Jasonelle (coming soon)
@@ -144,7 +143,7 @@ function App() {
           <Route path="/">
             <ContentCard>
               <p>
-                I'm a fourth year Software Engineering student at Macquarie
+                I'm a fourth-year Software Engineering student at Macquarie
                 University.
               </p>
               <p>
