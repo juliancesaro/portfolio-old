@@ -54,7 +54,11 @@ function App() {
         <Switch>
           <Route path="/projects">
             <ContentCard>
-              <a href="https://whispering-oasis-98910.herokuapp.com/">
+              <a
+                href="https://whispering-oasis-98910.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <p className="content-link">GOshop:</p>
               </a>
               <div className="languages">
@@ -74,7 +78,11 @@ function App() {
                 and add items to their cart. The project was deployed using
                 Heroku.
               </p>
-              <a href="https://juliancesaro.github.io/vaporwave-website/">
+              <a
+                href="https://juliancesaro.github.io/vaporwave-website/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <p className="content-link">Vaporwave website:</p>
               </a>
               <div className="languages">
