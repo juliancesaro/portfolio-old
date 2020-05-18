@@ -1,7 +1,7 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import "./Navbar.css";
-import julian from "../images/julian.png";
+import React from "react"
+import { NavLink } from "react-router-dom"
+import "./Navbar.css"
+import julian from "../images/julian.png"
 
 function Navbar() {
   return (
@@ -11,7 +11,7 @@ function Navbar() {
       <div className="links">
         <div className="linkwrapper">
           <NavLink exact className="link" activeClassName="activelink" to="/">
-            About
+            About Me
           </NavLink>
         </div>
         <div className="linkwrapper">
@@ -36,7 +36,7 @@ function Navbar() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
