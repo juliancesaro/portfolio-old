@@ -77,9 +77,9 @@ function App() {
               <p>
                 GOshop is a full-stack mock online store still under
                 development. Currently, users can create an account, post items,
-                and add items to their cart. The project was deployed using
-                Heroku.
+                and add items to their cart. The project is hosted using Heroku.
               </p>
+              <p></p>
               <a
                 href="https://juliancesaro.github.io/vaporwave-website/"
                 target="_blank"
@@ -100,8 +100,9 @@ function App() {
               </div>
               <p>
                 This project is a website detailing the popular music microgenre
-                'vaporwave'. The website includes a music player made with
-                jQuery to which users can load and play songs.
+                'vaporwave'. It includes a music player made with jQuery,
+                allowing users to load and play songs mentioned throughout the
+                content of the website.
               </p>
               <p className="content-link">
                 Compiler for Jasonelle (coming soon)
