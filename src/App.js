@@ -12,22 +12,22 @@ function App() {
         className="particles"
         params={{
           particles: {
-            number: { value: 50, density: { enable: true, value_area: 950 } },
-            color: { value: ["#cc892b"] },
+            number: { value: 20, density: { enable: false } },
+            color: { value: ["#cc892b", "#1cd6b1", "#8c4ec7", "#8bc74e"] },
             opacity: {
               value: 0.5,
               random: false,
               anim: {
                 enable: true,
-                speed: 1,
-                opacity_min: 0.1,
+                speed: 0.2,
+                opacity_min: 0.3,
                 sync: false,
               },
             },
             size: {
               value: 5,
               random: true,
-              anim: { enable: false, speed: 40, size_min: 0.1, sync: false },
+              anim: { enable: false },
             },
             line_linked: {
               enable: true,
