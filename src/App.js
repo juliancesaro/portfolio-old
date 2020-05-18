@@ -155,8 +155,7 @@ function App() {
             <ContentCard>
               <p>
                 I'm a fourth-year Software Engineering student at Macquarie
-                University, an aspiring full-stack developer, and am always
-                looking for opportunities to expand on my skills.
+                University, and an aspiring full-stack developer.
               </p>
             </ContentCard>
           </Route>
