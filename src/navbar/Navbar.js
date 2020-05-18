@@ -29,9 +29,9 @@ function Navbar() {
             exact
             className="link"
             activeClassName="activelink"
-            to="/resume"
+            to="/contact"
           >
-            Resume
+            Contact
           </NavLink>
         </div>
       </div>

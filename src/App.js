@@ -1,9 +1,11 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Particles from "react-particles-js";
-import Navbar from "./navbar/Navbar";
-import ContentCard from "./contentCard/ContentCard";
+import React from "react"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import "./App.css"
+import Particles from "react-particles-js"
+import Navbar from "./navbar/Navbar"
+import ContentCard from "./contentCard/ContentCard"
+import linkedin from "./images/linkedin.png"
+import github from "./images/github.png"
 
 function App() {
   return (
@@ -63,13 +65,13 @@ function App() {
               </a>
               <div className="languages">
                 <div className="language">
-                  <code>ReactJS</code>
+                  <p className="code">ReactJS</p>
                 </div>
                 <div className="language">
-                  <code>Node.js</code>
+                  <p className="code">Node.js</p>
                 </div>
                 <div className="language">
-                  <code>MongoDB</code>
+                  <p className="code">MongoDB</p>
                 </div>
               </div>
               <p>
@@ -87,13 +89,13 @@ function App() {
               </a>
               <div className="languages">
                 <div className="language">
-                  <code>HTML</code>
+                  <p className="code">HTML</p>
                 </div>
                 <div className="language">
-                  <code>CSS</code>
+                  <p className="code">CSS</p>
                 </div>
                 <div className="language">
-                  <code>JS</code>
+                  <p className="code">JS</p>
                 </div>
               </div>
               <p>
@@ -106,10 +108,10 @@ function App() {
               </p>
               <div className="languages">
                 <div className="language">
-                  <code>TS</code>
+                  <p className="code">TS</p>
                 </div>
                 <div className="language">
-                  <code>Node.js</code>
+                  <p className="code">Node.js</p>
                 </div>
               </div>
               <p className="content-link">
@@ -117,67 +119,50 @@ function App() {
               </p>
               <div className="languages">
                 <div className="language">
-                  <code>ReactJS</code>
+                  <p className="code">ReactJS</p>
                 </div>
                 <div className="language">
-                  <code>Node.js</code>
+                  <p className="code">Node.js</p>
                 </div>
               </div>
             </ContentCard>
           </Route>
-          <Route path="/resume">
+          <Route path="/contact">
             <ContentCard>
-              <p className="content-link">Experience:</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+              <div className="contacts">
+                <p className="email">julianjcesaro@gmail.com</p>
+                <div className="logos">
+                  <a
+                    href="https://www.linkedin.com/in/julian-cesaro-015b9a156/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={linkedin} alt="Linkedin Logo" width="40px" />
+                  </a>
+                  <a
+                    href="https://github.com/juliancesaro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="Github Logo" width="50x" />
+                  </a>
+                </div>
+              </div>
             </ContentCard>
           </Route>
           <Route path="/">
             <ContentCard>
               <p>
                 I'm a fourth-year Software Engineering student at Macquarie
-                University.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                University. I've always had a passion for technology and am
+                always looking for ways to expand on my skills.
               </p>
             </ContentCard>
           </Route>
         </Switch>
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

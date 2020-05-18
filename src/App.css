@@ -39,11 +39,24 @@ a,
   border-radius: 3px;
   background-color: #f7f7f7;
 }
-code {
+.code {
   font-family: Consolas, monaco, monospace;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 50;
+  margin: auto;
   margin-left: 4px;
   margin-right: 4px;
   color: #d6443f;
+}
+.contacts {
+  text-align: center;
+}
+.logos {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacts a {
+  align-self: center;
 }
