@@ -14,15 +14,15 @@
     },
     {
       "link": "",
-      "name": "A Compiler for Jasonelle",
-      "tags": ["TS", "Node.js"],
-      "about": ""
+      "name": "Conway's Game of Life",
+      "tags": ["ReactJS", "Node.js"],
+      "about": "An implementation of John Conway's Game of Life using ReactJs and Node.js."
     },
     {
       "link": "",
-      "name": "Conway's Game of Life",
-      "tags": ["ReactJS", "Node.js"],
-      "about": ""
+      "name": "A Compiler for Jasonelle",
+      "tags": ["TS", "Node.js"],
+      "about": "A compiler that creates JS-based web applications from Jasonelle."
     }
   ]
 }
