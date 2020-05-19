@@ -14,13 +14,13 @@
     },
     {
       "link": "",
-      "name": "A Compiler for Jasonelle (coming soon)",
+      "name": "A Compiler for Jasonelle",
       "tags": ["TS", "Node.js"],
       "about": ""
     },
     {
       "link": "",
-      "name": "Conway's Game of Life (coming soon)",
+      "name": "Conway's Game of Life",
       "tags": ["ReactJS", "Node.js"],
       "about": ""
     }
