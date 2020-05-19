@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Hosted at [juliancesaro.live](http://www.juliancesaro.live)
+## Hosted at [www.juliancesaro.live](http://www.juliancesaro.live)
 
 ## Available Scripts
 
