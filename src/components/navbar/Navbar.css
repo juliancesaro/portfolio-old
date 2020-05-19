@@ -6,27 +6,15 @@
   width: 33.33%;
 }
 .link {
+  position: relative;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: large;
   color: white;
-  text-decoration: none;
-
-  text-align: center;
+  transition: 0.3s;
 }
 .activelink {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: large;
-  color: white;
-  /* text-decoration: underline;
-  text-decoration-color: #cc892b;
-  text-underline-position: under; */
-  border-color: orange;
-  padding-bottom: 4px;
-  border-width: 0 0 2px;
-  border-style: solid;
-  text-align: center;
+  color: orange;
 }
 p.name {
   font-size: larger;

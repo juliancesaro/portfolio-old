@@ -1,9 +1,9 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import "./Navbar.css"
-import julian from "../images/julian.png"
+import julian from "../../images/julian.png"
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="navbar">
       <img src={julian} alt="Julian" width={80}></img>

@@ -2,12 +2,12 @@ import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import "./App.css"
 import Particles from "react-particles-js"
-import Navbar from "./navbar/Navbar"
-import ContentCard from "./contentCard/ContentCard"
-import linkedin from "./images/linkedin.png"
-import github from "./images/github.png"
+import Navbar from "./components/navbar/Navbar"
+import Projects from "./components/projects/Projects"
+import Contact from "./components/contact/Contact"
+import AboutMe from "./components/aboutMe/AboutMe"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Particles
@@ -55,109 +55,13 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/projects">
-            <ContentCard>
-              <a
-                href="https://whispering-oasis-98910.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="content-link">GOshop:</p>
-              </a>
-              <div className="languages">
-                <div className="language">
-                  <p className="code">ReactJS</p>
-                </div>
-                <div className="language">
-                  <p className="code">Node.js</p>
-                </div>
-                <div className="language">
-                  <p className="code">MongoDB</p>
-                </div>
-              </div>
-              <p>
-                GOshop is a full-stack mock online store still under
-                development. Currently, users can create an account, post items,
-                and add items to their cart. The project is hosted using Heroku.
-              </p>
-              <p></p>
-              <a
-                href="https://juliancesaro.github.io/vaporwave-website/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p className="content-link">Vaporwave website:</p>
-              </a>
-              <div className="languages">
-                <div className="language">
-                  <p className="code">HTML</p>
-                </div>
-                <div className="language">
-                  <p className="code">CSS</p>
-                </div>
-                <div className="language">
-                  <p className="code">JS</p>
-                </div>
-              </div>
-              <p>
-                This project is a website detailing the popular music microgenre
-                'vaporwave'. It includes a music player made with jQuery,
-                allowing users to load and play songs mentioned throughout the
-                content of the website.
-              </p>
-              <p className="content-link">
-                Compiler for Jasonelle (coming soon)
-              </p>
-              <div className="languages">
-                <div className="language">
-                  <p className="code">TS</p>
-                </div>
-                <div className="language">
-                  <p className="code">Node.js</p>
-                </div>
-              </div>
-              <p className="content-link">
-                Conway's Game of Life (coming soon)
-              </p>
-              <div className="languages">
-                <div className="language">
-                  <p className="code">ReactJS</p>
-                </div>
-                <div className="language">
-                  <p className="code">Node.js</p>
-                </div>
-              </div>
-            </ContentCard>
+            <Projects />
           </Route>
           <Route path="/contact">
-            <ContentCard>
-              <div className="contacts">
-                <p className="email">julianjcesaro@gmail.com</p>
-                <div className="logos">
-                  <a
-                    href="https://www.linkedin.com/in/julian-cesaro-015b9a156/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={linkedin} alt="Linkedin Logo" width="40px" />
-                  </a>
-                  <a
-                    href="https://github.com/juliancesaro"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img src={github} alt="Github Logo" width="50x" />
-                  </a>
-                </div>
-              </div>
-            </ContentCard>
+            <Contact />
           </Route>
           <Route path="/">
-            <ContentCard>
-              <p>
-                I'm a fourth-year Software Engineering student at Macquarie
-                University, and an aspiring full-stack developer.
-              </p>
-            </ContentCard>
+            <AboutMe />
           </Route>
         </Switch>
       </Router>

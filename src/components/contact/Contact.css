@@ -1,0 +1,12 @@
+.contacts {
+  text-align: center;
+}
+.logos {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacts a {
+  align-self: center;
+}
