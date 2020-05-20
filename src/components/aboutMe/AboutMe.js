@@ -14,8 +14,8 @@ const AboutMe = () => {
         lot and hope to keep learning as opportunities present themselves.
       </p>
       <p>
-        I created this website so you could view some of my personal projects
-        and read a bit about myself. View away!
+        I created this website for you to view some of my personal projects and
+        read a bit about myself. View away!
       </p>
     </ContentCard>
   )
