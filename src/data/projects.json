@@ -22,7 +22,7 @@
       "link": "",
       "name": "A Compiler for Jasonelle",
       "tags": ["TS", "Node.js"],
-      "about": "A compiler that creates JS-based web applications from Jasonelle."
+      "about": "A compiler for creating JS-based web applications from Jasonelle."
     }
   ]
 }

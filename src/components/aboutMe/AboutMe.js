@@ -4,9 +4,10 @@ import ContentCard from "../contentCard/ContentCard"
 const AboutMe = () => {
   return (
     <ContentCard>
+      <p>Hi! I'm Julian.</p>
       <p>
-        Hi! I'm Julian. I'm currently a fourth-year software engineering student
-        at Macquarie University. I'm also an aspiring full-stack developer.
+        I'm currently a fourth-year software engineering student at Macquarie
+        University. I'm also an aspiring full-stack developer.
       </p>
       <p>
         I've always been passionate about technology, which is why I decided to
