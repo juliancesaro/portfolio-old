@@ -27,7 +27,6 @@ const Projects = () => {
               name={project.name}
               tags={project.tags}
               about={project.about}
-              filter={filter}
               setFilter={setFilter}
             />
           </li>
