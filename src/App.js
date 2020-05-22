@@ -14,7 +14,7 @@ const App = () => {
         className="particles"
         params={{
           particles: {
-            number: { value: 20, density: { enable: false } },
+            number: { value: 20 },
             color: { value: ["#cc892b", "#1cd6b1", "#8c4ec7", "#8bc74e"] },
             opacity: {
               value: 0.5,
@@ -45,7 +45,6 @@ const App = () => {
               random: true,
               straight: false,
               bounce: true,
-              attract: { enable: false, rotateX: 600, rotateY: 1200 },
             },
           },
           retina_detect: true,
