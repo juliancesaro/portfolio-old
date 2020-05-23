@@ -47,6 +47,7 @@ const App = () => {
               bounce: true,
             },
           },
+          retina_detect: true,
         }}
       />
       <Router>
