@@ -2,8 +2,6 @@ import React from "react"
 import Tags from "../tags/Tags"
 
 const Project = ({ link, name, tags, about, setFilter }) => {
-  console.log(link.length)
-
   // If the project link is empty, the project is "coming soon"
   return (
     <div>
