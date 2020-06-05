@@ -1,9 +1,9 @@
-import React from "react"
-import "./Contact.css"
-import ContentCard from "../contentCard/ContentCard"
-import linkedin from "../../images/linkedin.png"
-import github from "../../images/github.png"
-import facebook from "../../images/facebook.png"
+import React from "react";
+import "./Contact.css";
+import ContentCard from "../contentCard/ContentCard";
+import linkedin from "../../images/linkedin.png";
+import github from "../../images/github.png";
+import facebook from "../../images/facebook.png";
 
 const Contact = () => {
   return (
@@ -19,7 +19,7 @@ const Contact = () => {
             <img src={github} alt="Github Logo" width="50px" />
           </a>
           <a
-            href="https://www.linkedin.com/in/julian-cesaro-015b9a156/"
+            href="https://www.linkedin.com/in/juliancesaro/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
       </div>
     </ContentCard>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
