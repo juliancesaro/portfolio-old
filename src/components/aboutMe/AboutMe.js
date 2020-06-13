@@ -11,7 +11,7 @@ const AboutMe = () => {
       </p>
       <p>
         I've always been passionate about technology, which is why I decided to
-        start studying sofware engineering in 2017. Since then, I've learned a
+        start studying software engineering in 2017. Since then, I've learned a
         lot and hope to keep learning as opportunities present themselves.
       </p>
       <p>
